@@ -8,7 +8,6 @@ import java.util.Map;
 import java.util.Objects;
 
 public class Notebook {
-
     Map<Integer, Purpose> purposeForDay = new HashMap<>();
     private final Map<Integer, Purpose> purposeMap;
     private Purpose purpose;
@@ -103,7 +102,6 @@ public class Notebook {
     public int hashCode() {
         return Objects.hash(purposeForDay, purposeMap, purpose);
     }
-
     @Override
     public String toString() {
         return "" + purposeMap;

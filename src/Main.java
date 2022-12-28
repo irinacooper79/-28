@@ -101,7 +101,6 @@ public class Main {
             System.out.println("Цель не добавлена! Повторяемость цели введена неверно!");
         }
     }
-
     private static void printMenu() {
         System.out.println(
                 "1. Добавить цель \n2. Удалить цель \n3. Получить цель на указанный день \n0. Выход ");

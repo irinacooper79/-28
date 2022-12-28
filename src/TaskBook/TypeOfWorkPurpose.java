@@ -1,5 +1,4 @@
 package TaskBook;
-
 public enum TypeOfWorkPurpose {
 
     ONE_TIME ("Однократная"),

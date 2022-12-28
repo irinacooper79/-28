@@ -4,11 +4,9 @@ import java.time.LocalDateTime;
 
 public class DailyPurpose extends Purpose implements Repeatable{
 
-
     public DailyPurpose(String title, String note, TypeOfPurpose type, LocalDateTime date) {
         super(title, note, type, date);
     }
-
     public LocalDateTime getDate() {
         return date;
     }

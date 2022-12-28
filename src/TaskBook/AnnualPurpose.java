@@ -7,7 +7,6 @@ public class AnnualPurpose extends Purpose implements Repeatable {
     public AnnualPurpose(String title, String note, TypeOfPurpose type, LocalDateTime date) {
         super(title, note, type, date);
     }
-
     @Override
     public LocalDateTime getDateTime(LocalDateTime dateTime) {
         LocalDateTime date = dateTime;

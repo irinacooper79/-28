@@ -14,7 +14,6 @@ public enum TypeOfPurpose {
         return typeOfPurpose;
     }
 
-
     @Override
     public String toString() {
         return "Тип задачи: " + typeOfPurpose;
