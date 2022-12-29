@@ -10,7 +10,6 @@ public class DailyPurpose extends Purpose implements Repeatable{
     public LocalDateTime getDate() {
         return date;
     }
-
     @Override
     public LocalDateTime getDateTime(LocalDateTime dateTime) {
         LocalDateTime date = dateTime;

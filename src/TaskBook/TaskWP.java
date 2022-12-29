@@ -9,7 +9,6 @@ public class TaskWP extends Purpose implements Repeatable{
                   TypeOfPurpose typeOfPurpose,
                   LocalDateTime date) {
         super(title, note, typeOfPurpose, date);
-
     }
     @Override
     public String getTypeRepeatable() {

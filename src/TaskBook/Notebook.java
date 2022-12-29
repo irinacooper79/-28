@@ -25,7 +25,6 @@ public class Notebook {
             purposeMap.remove(id);
         }
     }
-
     public void getPurposeForDay(LocalDate date) {
         try {
             try {

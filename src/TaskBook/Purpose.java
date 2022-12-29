@@ -37,7 +37,6 @@ public abstract class Purpose {
         }
         return note;
     }
-
     public LocalDateTime getDate() {
         return date;
     }

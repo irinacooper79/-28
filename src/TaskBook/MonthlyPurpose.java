@@ -7,7 +7,6 @@ public class MonthlyPurpose extends Purpose implements Repeatable {
     public MonthlyPurpose(String title, String note, TypeOfPurpose type, LocalDateTime date) {
         super(title, note, type, date);
     }
-
     public LocalDateTime getDate() {
         return date;
     }
