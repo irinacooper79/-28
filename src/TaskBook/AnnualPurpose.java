@@ -14,7 +14,6 @@ public class AnnualPurpose extends Purpose implements Repeatable {
         }
         return date;
     }
-
     @Override
     public String getTypeRepeatable() {
         return "Ежегодная ";

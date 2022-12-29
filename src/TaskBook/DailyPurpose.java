@@ -18,7 +18,6 @@ public class DailyPurpose extends Purpose implements Repeatable{
         }
         return date;
     }
-
     @Override
     public String getTypeRepeatable() {
         return "Ежедневная ";

@@ -13,7 +13,6 @@ public class Main {
             "yyyy.MM.dd','HH:mm");
     public static final DateTimeFormatter D_FORMAT = DateTimeFormatter.ofPattern(
             "yyyy.MM.dd");
-
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             label:

@@ -96,7 +96,6 @@ public class Notebook {
         return Objects.equals(purposeForDay, diary.purposeForDay) && Objects.equals(purposeMap,
                 diary.purposeMap) && Objects.equals(purpose, diary.purpose);
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(purposeForDay, purposeMap, purpose);

@@ -14,7 +14,6 @@ public class TaskWP extends Purpose implements Repeatable{
     public String getTypeRepeatable() {
         return null;
     }
-
     @Override
     public LocalDateTime getDateTime(LocalDateTime dateTime) {
         LocalDateTime date = dateTime;

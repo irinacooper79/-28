@@ -66,7 +66,6 @@ public abstract class Purpose {
                 ", необходимо " + note +
                 ". " + type + ", дата выполнения: " + date + ", повторяемость: " + getTypeRepeatable();
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) {

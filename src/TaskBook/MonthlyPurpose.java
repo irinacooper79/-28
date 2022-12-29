@@ -18,7 +18,6 @@ public class MonthlyPurpose extends Purpose implements Repeatable {
         }
         return date;
     }
-
     @Override
     public String getTypeRepeatable() {
         return "Ежемесячная ";
