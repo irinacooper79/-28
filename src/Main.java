@@ -6,7 +6,6 @@ import java.time.format.DateTimeParseException;
 import java.util.Scanner;
 
 public class Main {
-
     private static final Notebook notebook = new Notebook();
     private static Purpose purpose;
     public static final DateTimeFormatter D_T_FORMAT = DateTimeFormatter.ofPattern(

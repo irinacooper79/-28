@@ -22,7 +22,6 @@ public class TaskWP extends Purpose implements Repeatable{
         }
         return date;
     }
-
     public String getTypePurpose(){
         return "Цель";
     }

@@ -79,7 +79,6 @@ public abstract class Purpose {
                 note, purpose.note) && type == purpose.type && Objects.equals(date,
                 purpose.date);
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(title, type, id, date);

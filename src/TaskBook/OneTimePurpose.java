@@ -14,5 +14,4 @@ public class OneTimePurpose extends Purpose implements Repeatable {
     public String getTypeRepeatable() {
         return "Однократная ";
     }
-
 }

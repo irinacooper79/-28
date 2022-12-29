@@ -22,5 +22,4 @@ public class DailyPurpose extends Purpose implements Repeatable{
     public String getTypeRepeatable() {
         return "Ежедневная ";
     }
-
 }

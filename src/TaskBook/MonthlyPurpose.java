@@ -22,5 +22,4 @@ public class MonthlyPurpose extends Purpose implements Repeatable {
     public String getTypeRepeatable() {
         return "Ежемесячная ";
     }
-
 }

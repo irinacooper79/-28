@@ -1,4 +1,5 @@
 package TaskBook;
+
 import java.time.LocalDateTime;
 
 public class AnnualPurpose extends Purpose implements Repeatable {
